@@ -7,7 +7,7 @@
 .logo{
 	background-image: url("http://i.imgur.com/JRFVNct.png?1");
 	background-repeat: no-repeat;
-	background-size: 55% auto;
+	background-size: 50% auto;
 	display: block;
 	height: 270px;
 	background-position: center;
@@ -16,30 +16,18 @@
 }
 #container{
 	margin: 5% 0% 0% 0%;
-	padding: 1% 15% 5% 15%;
+	padding: 0% 32% 0% 32%;
 	display: inline-block;
-	text-align: center;
-}
-.sign_in{
-	float: left;
-}
-.sign_up{
-	float: right;
-}
-/*
-.username, .password {
 }
 
-.username{
-
+input{
+	border: 0.3em solid white;
+	background-color: rgba(100, 100, 100, 1);
+	color: white;
 }
-.password{
-
+p{
+	margin: 0%;
+	font-size: 1em;
+	color: rgba(0, 0, 0, 1);
 }
-.sign_in{
-
-}
-.sign_up{
-
-}
-*/
+.email{text-align: left;}

@@ -16,21 +16,28 @@
 }
 #container{
 	margin: 5% 0% 0% 0%;
-	padding: 0% 32% 5% 32%;
+	padding: 0% 32% 0% 32%;
 	display: inline-block;
-	background-color: rgba(255, 255, 255, 0.9);
 }
 .employer{
 	float: left;
-	font-size: 1em;
-
+	font-size: 0.9em;
+	color: white;
 }
 .intern{
 	float: right;
-	font-size: 1em;
+	font-size: 0.9em;
+	color: white;
 }
 input{
+	border: 0.3em solid white;
+	background-color: rgba(100, 100, 100, 1);
 	width: 6em;
 	height: 6em;
 	border-radius: 80%;
+}
+p{
+	margin: 0%;
+	font-size: 1.5em;
+	color: rgba(100, 100, 100, 1);
 }
