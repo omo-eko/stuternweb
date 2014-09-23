@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 #www-stutern-com{
 	background-image: ur("http://i.imgur.com/KMBm7qy.jpg?1");
 	background-color: white;
