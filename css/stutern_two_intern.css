@@ -11,58 +11,45 @@
 	padding: 0%;
 	cursor: default;
 	overflow: scroll;
+	font-size: 1em;
 }
 .logo{
 	background-image: url("http://i.imgur.com/JRFVNct.png?1");
 	background-repeat: no-repeat;
-	background-size: 50% auto;
+	background-size: 30% auto;
 	text-align: center;
 	display: block;
 	height: 270px;
 	background-position: center;
-	margin: 0% 0% 0% 0%;
+	margin: -25% 0% -35% 0%;
 	padding: 0% 0% 0% 0%;
 	clear: both;
 }
 #container{
-	margin: 5% 0% 0% 0%;
-	padding: 0% 32% 0% 32%;
-	display: inline-block;
+	margin: 0% 0% 0% 0%;
+	padding: 0% 27% 0% 27%;
+	
 }
 #logo{
 	padding: 0% 32% 0% 32%;
 }
-input{
-	text-align: right;
-	border: 0.1em solid rgba(200, 200, 200, 1);
+#wrapper{
+	width: 90%;
+	height: 22em;
+	border: 0.3em solid black;
+	border-radius: 0.25em;
+	display: block;
+	margin: 0% 0% 0% 6%;
+	padding: 10% 10% 0% 10%;
 }
-.boxes{
-	text-align: right;
-}
-.tagline{
-	margin: 0% 35% 10% 35%;
-}
-.description{
-	margin: 0% 35% 0% 35%;
-	text-align: left;
-}
-p{
-	margin: 0%;
-	padding: 0%;
-	font-size: 1em;
-	color: rgba(0, 0, 0, 1);
+.login, .signup{
+	background-color: #0ee6d0;
+	min-width: 15%;
+	position: relative;
+	left: 100%;
+	bottom: 10em;
+	margin: 8% 0.68% 0% 0%;
+	padding: 1% 0% 1% 0%;
+	color: white;
 	float: left;
-	line-height: 1em;
-}
-.institution,
-.firstname,
-.lastname,
-.telephone,
-.email,
-.password{
-	text-align: left;
-}
-.institution{
-	margin: 0% 35% 0% 35%;
-	text-align: left;
 }
