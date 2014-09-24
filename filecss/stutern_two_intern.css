@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	background-size: 100%;
+	background-color: #333333;
+}
+#main{
+	background-color: #111111;
+	background-size: 100%;
+}
+#header{
+	background-color: #445544;
+	background-size: 15%;
+}
+#subnav{
+	background-size: 5%;
+}
+#posts{
+	background-size: 70%;
+}
+.container{
+	background-size: 70%;
+}
+.aside{
+	background-size: 30%;
+}
+#footer{
+	background-size: 10%;
+}
+.box1{
+	margin: 0%;
+	padding: 0%;
+	max-width: 32%;
+	max-height: 20em;
+}
+.cxtop{
+	background-color: #FFDDFF;
+	margin: 0%;
+	padding: 0%;
+	color: #293333;
+}
+#izappos{
+	background-image: url("http://i.imgur.com/1m6gOZ8.png?1");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	max-width: 100%;
+	min-height: 15em;
+	display: block;
+	margin: 0%;
+}
+.dttom{
+	background-color: #FFFFFF;
+	margin: 0%;
+	padding: 0%;
+	color: #293333;
+}
+h2{
+	margin: 0%;
+	padding: 0%;
+}
+p{
+	margin: 0%;
+	padding: 0%;
+}
