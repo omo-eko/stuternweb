@@ -41,6 +41,7 @@
 	display: block;
 	margin: 0% 0% 0% 6%;
 	padding: 10% 10% 0% 10%;
+<<<<<<< HEAD
 }
 #socialmedia{
 	width: 100%;
@@ -89,6 +90,56 @@ h2{
 	margin: 0% 0% 0% 0%;
 	font-size: 1.3em;
 }
+=======
+}
+#socialmedia{
+	width: 100%;
+	padding: 0% 8%;
+}
+.fb{
+	background-image: url("http://i.imgur.com/5cPbLg5.png?1");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 24%;
+	height: 7em;
+	margin: 5% 14.2% 5% 0%;
+	padding: 0% 0% 0% 0%;
+	float: left;
+	display: inline-block;
+	background-position: center;
+}
+.yh{
+	background-image: url("http://i.imgur.com/eDWkfcB.png?1");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 24%;
+	height: 7em;
+	margin: 5% 0% 5% 0%;
+	padding: 0% 0% 0% 0%;
+	float: left;
+	display: inline-block;
+	background-position: center;
+}
+.gg{
+	background-image: url("http://i.imgur.com/emnxoJr.png?1");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 24%;
+	height: 7em;
+	margin: 5% 0% 5% 0%;
+	padding: 0% 0% 0% 0%;
+	float: right;
+	display: inline-block;
+	background-position: center;
+}
+h1{
+	clear: both;
+}
+h2{
+	margin: 0% 0% 0% 0%;
+	font-size: 1.3em;
+}
+>>>>>>> 96e9a898bb26087a1d8a486540f530aa18e1fe8d
 h3{
 	margin: 0% 0% 0% 0%;
 	clear: both;
@@ -113,4 +164,8 @@ h4{
 #footer{
 	margin:6% 0% 0% 0%;
 	border: 1.2em solid #0ee6d0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 96e9a898bb26087a1d8a486540f530aa18e1fe8d
