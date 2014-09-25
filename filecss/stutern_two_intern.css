@@ -28,11 +28,20 @@ body{
 #footer{
 	background-size: 10%;
 }
-.box1{
+
+#box1{
 	margin: 0%;
 	padding: 0%;
-	max-width: 32%;
+	max-width: 33%;
 	max-height: 25em;
+	float: left;
+}
+#box2{
+	margin: 0% 0% 0% 2% ;
+	padding: 0%;
+	max-width: 33%;
+	max-height: 25em;
+	float: left;
 }
 .dttop{
 	background-color: #FFDDFF;
@@ -81,20 +90,34 @@ body{
 	display: block;
 	margin: 0%;
 }
+#iuber{
+	background-image: url("http://i.imgur.com/Mnj1udJ.jpg?1");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	max-width: 100%;
+	min-height: 15em;
+	display: block;
+	margin: 0%;
+}
 .dttom{
 	background-color: #FFFFFF;
 	margin: 0%;
-	padding: 2% 2.6% 3% 2.6%;
+	padding: 2% 2.6% 1% 2.6%;
 	color: #293333;
 	max-width: 100%;
 }
 .dttomicons{
-	margin: 3% 0% 6% 0%;
+	margin: 4% 0% 0% 0%;
+	max-height: 2em;
+	min-height: 1.5em;
+	max-width: 100%;
 }
-.dttomicons > .fa{
-	margin: 0% 1.6% 0% 0%;
+.dttomicons > a > .fa{
+	margin: 0.6% 1.6% 0% 0%;
 	float: left;
 	display: inline-block;
+	text-decoration: none;
+	color: black;
 }
 h2{
 	margin: 0%;
@@ -112,6 +135,7 @@ h2{
 }
 .dttom > .person > .fa > span{
 	font-size: 0.7em;
+	margin: 0% 0% 0% 3%;
 }
 .dttom > p{
 	margin: 0%;
@@ -119,15 +143,29 @@ h2{
 	font-size: 0.8em;
 	display: inline-block;
 }
+.dttom > p > a > .details {
+	font-weight: bolder;
+	color: black;
+	text-decoration: none;
+}
+.savorapp{
+	min-width: 1%;
+	min-height: 1em;
+	margin: 0%;
+	padding: 0%;
+}
 .savorapp p:first-child{
-	background-color: yellow;
+	border: 0.1em solid black;
 	margin: 0% 2% 0% 1%;
 	float: right;
 	font-size: 1em;
+	padding: 0.1% 0.6% 0.1% 0.6%;
+	color: black;
 }
 .savorapp p:nth-child(2){
-	background-color: yellow;
+	border: 0.1em solid black;
 	margin: 0% 0% 0% 0%;
 	float: right;
 	font-size: 1em;
+	padding: 0.1% 0.6% 0.1% 0.6%;
 }
